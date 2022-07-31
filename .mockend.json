@@ -15,7 +15,7 @@
         "maxLength": 100
       }
     },
-    "tag": {
+    "tags": {
       "string": [
         "one",
         "two",
