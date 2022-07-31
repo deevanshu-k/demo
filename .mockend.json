@@ -1,5 +1,5 @@
 {
-  "Postt": {
+  "Post": {
     "cover": {
       "regexp": "https://picsum\\.photos/seed/[0-9]{5}/1920/270"
     },
@@ -29,6 +29,37 @@
       "dateTime": {
         "min": "2010-01-01T00:00:00Z",
         "max": "2020-12-31T23:59:59Z"
+      }
+    }
+  },
+  "Device": {
+    "id":{
+      "int": {
+        "min":"0",
+        "max": "30"
+      }
+    },
+    "title": {
+      "string": {
+        "loremWord": {}
+      }
+    },
+    "brand":{
+      "string": [
+        "Samsung",
+        "MI",
+        "MotoRola",
+        "Assus",
+        "Apple",
+        "Realmi",
+        "Nothing",
+        "OnePlus"
+      ]
+    },
+    "price":{
+      "int" : {
+        "min":"5023",
+        "max": "10234"
       }
     }
   }
